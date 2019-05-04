@@ -1,4 +1,4 @@
-<? php
+<?php
 
 //リクエストトークンを使い、アクセストークンを取得する
 $twitter_connect = new TwitterOAuth(TWITTER_API_KEY, TWITTER_API_SECRET, $_SESSION['oauth_token'], $_SESSION['oauth_token_secret']);
