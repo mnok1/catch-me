@@ -1,8 +1,8 @@
 //login.php
 <?php
 
-define('TWITTER_API_KEY' , 'iYLQZfm9c2xa0ttLMKehxOonh'); //consumer key (API key)
-define('TWITTER_API_SECRET', 'IvXGkwd8kRGX0Oxvx1ENGAp8BDQNlXdwuzsuGkwfzgo3DaPeSx');  //Consumer Secret (API Secret)
+define('TWITTER_API_KEY' , '********************'); //consumer key (API key)
+define('TWITTER_API_SECRET', '******************');  //Consumer Secret (API Secret)
 define('CALLBACK_URL', 'http://catch.me.1010muscle.com/callback.php');  //Twitterから認証した時に飛ぶページ場所
 
 //TwitterOAuthのインスタンスを生成し、Twitterからリクエストトークンを取得する
